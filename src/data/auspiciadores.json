@@ -1,11 +1,11 @@
 [
   {
-    "id": "destileria-del-norte",
-    "nombre": "Destilería del Norte",
+    "id": "pinky-labs",
+    "nombre": "Pinky Labs",
     "tier": "principal",
-    "sitioWeb": "https://destileriadelnorte.cl",
+    "sitioWeb": "https://pinkylabs.io",
     "logo": "/images/placeholder-sponsor.png",
-    "descripcion": "Productores de piscos y destilados premium del norte de Chile desde 1920."
+    "descripcion": "Estudio de emprendimiento de inteligencia artificial que diseña herramientas inteligentes y centradas en el ser humano, que mejoran la forma en que las personas piensan, juegan, crean y viven."
   },
   {
     "id": "pisco-solar",
