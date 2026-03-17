@@ -5,6 +5,7 @@ import BarCard from "@/components/BarCard";
 import type { Bar, Auspiciador } from "@/lib/types";
 import baresData from "@/data/bares.json";
 import auspiciadoresData from "@/data/auspiciadores.json";
+import Image from "next/image";
 
 const bares: Bar[] = baresData as Bar[];
 const auspiciadores: Auspiciador[] = auspiciadoresData as Auspiciador[];
@@ -106,15 +107,12 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto relative grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           <SectionReveal>
             <div className="relative max-w-[400px] md:max-w-none">
-              <video
-  className="w-full aspect-[4/5] object-cover relative z-[2]"
-  autoPlay
-  muted
-  loop
-  playsInline
->
-  <source src="/videos/Flyer1Video.mp4" type="video/mp4" />
-</video>
+              <Image
+              src="/images/valpo-cocktail-week-flyer.png"
+              alt="Valpo Cocktail Week 2026"
+              fill
+              className="object-cover"
+              />
               <div className="absolute bottom-[-16px] right-[-16px] w-[60%] h-[60%] border-r-2 border-b-2 border-magenta shadow-[8px_8px_30px_rgba(255,45,120,0.2)]" />
               <div className="absolute top-[-16px] left-[-16px] w-[40%] h-[40%] border-l-2 border-t-2 border-calipso shadow-[-8px_-8px_30px_rgba(0,229,204,0.2)] z-[1]" />
             </div>
