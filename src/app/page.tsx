@@ -107,7 +107,7 @@ export default function Home() {
           <SectionReveal>
             <div className="relative max-w-[400px] md:max-w-none">
               <video
-  className="w-full aspect-[4/5] object-cover"
+  className="w-full aspect-[4/5] object-cover relative z-[2]"
   autoPlay
   muted
   loop
