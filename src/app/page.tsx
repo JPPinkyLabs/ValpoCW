@@ -268,22 +268,22 @@ export default function Home() {
         <div className="max-w-[700px] mx-auto">
           <p className="section-label text-center">Organiza</p>
           <div className="inline-block border-[1.5px] border-calipso/30 px-12 py-6 font-display text-3xl tracking-[0.25em] text-calipso text-glow-calipso shadow-[0_0_30px_rgba(0,229,204,0.1)] mb-10">
-            ACOVAL
+            FUNDACIÓN NO ME OLVIDES
           </div>
           <h2 className="font-display text-[clamp(2rem,5vw,3.5rem)] mb-4">
-            Asociación de Cocteleros de Valparaíso
+            Fundación No Me Olvides
           </h2>
           <p className="opacity-60 leading-relaxed mb-10">
-            La Valpo Cocktail Week es una iniciativa de ACOVAL para visibilizar
-            y potenciar la escena de bares y coctelería de Valparaíso, ciudad
-            declarada Patrimonio de la Humanidad por la UNESCO.
+            Somos una comunidad dedicada a sostener y reconstruir junto a mujeres que han atravesado situaciones de violencia con enfoque de género.
+            Creemos que la sanación es posible a través de la escucha empática y el respeto absoluto por las decisiones individuales,
+            transformando el cuidado colectivo en un camino hacia la libertad.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
-            <Button href="mailto:hola@valpococktailweek.cl" variant="secondary">
-              hola@valpococktailweek.cl
+            <Button href="mailto:contacto@fundacionnomeolvides.cl" variant="secondary">
+              contacto@fundacionnomeolvides.cl
             </Button>
             <Button
-              href="https://instagram.com/valpococktailweek"
+              href="https://www.instagram.com/fundacionnomeolvides.cl"
               external
             >
               Seguir en Instagram
