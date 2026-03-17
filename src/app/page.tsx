@@ -106,9 +106,15 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto relative grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
           <SectionReveal>
             <div className="relative max-w-[400px] md:max-w-none">
-              <div className="w-full aspect-[4/5] bg-gradient-to-br from-magenta/30 via-violeta/30 to-calipso/20 flex items-center justify-center font-display text-sm tracking-[0.2em] opacity-50 border border-magenta/20">
-                FOTO DEL EVENTO
-              </div>
+              <video
+  className="w-full aspect-[4/5] object-cover"
+  autoPlay
+  muted
+  loop
+  playsInline
+>
+  <source src="/videos/Flyer1Video.mp4" type="video/mp4" />
+</video>
               <div className="absolute bottom-[-16px] right-[-16px] w-[60%] h-[60%] border-r-2 border-b-2 border-magenta shadow-[8px_8px_30px_rgba(255,45,120,0.2)]" />
               <div className="absolute top-[-16px] left-[-16px] w-[40%] h-[40%] border-l-2 border-t-2 border-calipso shadow-[-8px_-8px_30px_rgba(0,229,204,0.2)] z-[1]" />
             </div>
