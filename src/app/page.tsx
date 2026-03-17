@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       {/* ── HERO ── */}
-      <section className="relative h-screen min-h-[600px] flex items-center px-6 md:px-12 pt-20 pb-8 overflow-hidden">
+      <section className="relative h-screen min-h-[600px] flex items-center px-6 md:px-12 pt-28 pb-8 overflow-hidden">
         {/* Animated mesh bg */}
         <div
           className="absolute inset-0 animate-[meshShift_12s_ease-in-out_infinite_alternate]"
