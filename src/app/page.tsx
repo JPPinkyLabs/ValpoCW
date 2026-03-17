@@ -270,9 +270,11 @@ export default function Home() {
           <div className="inline-block border-[1.5px] border-calipso/30 px-12 py-6 font-display text-3xl tracking-[0.25em] text-calipso text-glow-calipso shadow-[0_0_30px_rgba(0,229,204,0.1)] mb-10">
             FUNDACIÓN NO ME OLVIDES
           </div>
+         {/*
           <h2 className="font-display text-[clamp(2rem,5vw,3.5rem)] mb-4">
             Fundación No Me Olvides
           </h2>
+          */}
           <p className="opacity-60 leading-relaxed mb-10">
             Somos una comunidad dedicada a sostener y reconstruir junto a mujeres que han atravesado situaciones de violencia con enfoque de género.
             Creemos que la sanación es posible a través de la escucha empática y el respeto absoluto por las decisiones individuales,
