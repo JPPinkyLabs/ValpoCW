@@ -1,0 +1,135 @@
+[
+  {
+    "dia": "Lunes 9",
+    "fecha": "2026-06-09",
+    "titulo": "Inauguración",
+    "eventos": [
+      {
+        "hora": "19:00",
+        "nombre": "Ceremonia de apertura",
+        "lugar": "Plaza Sotomayor",
+        "descripcion": "Bienvenida oficial con cóctel de bienvenida para todos los asistentes."
+      },
+      {
+        "hora": "20:30",
+        "nombre": "Masterclass: Historia del Pisco",
+        "lugar": "Bar El Farol",
+        "descripcion": "Recorrido por la historia del destilado nacional con degustación."
+      }
+    ]
+  },
+  {
+    "dia": "Martes 10",
+    "fecha": "2026-06-10",
+    "titulo": "Día del Pisco",
+    "eventos": [
+      {
+        "hora": "18:00",
+        "nombre": "Ruta del Pisco Sour",
+        "lugar": "Cerro Alegre",
+        "descripcion": "Recorrido por 5 bares del cerro, cada uno con su versión del clásico."
+      },
+      {
+        "hora": "21:00",
+        "nombre": "Competencia de Pisco Sour",
+        "lugar": "La Botica",
+        "descripcion": "Los mejores bartenders compiten por el mejor pisco sour de Valpo."
+      }
+    ]
+  },
+  {
+    "dia": "Miércoles 11",
+    "fecha": "2026-06-11",
+    "titulo": "Día de la Mixología",
+    "eventos": [
+      {
+        "hora": "17:00",
+        "nombre": "Workshop: Técnicas de infusión",
+        "lugar": "Botánico Bar",
+        "descripcion": "Aprende a crear infusiones con hierbas y especias locales."
+      },
+      {
+        "hora": "20:00",
+        "nombre": "Speed Bartending",
+        "lugar": "Puerto Oscuro",
+        "descripcion": "Competencia de velocidad y precisión entre bartenders."
+      }
+    ]
+  },
+  {
+    "dia": "Jueves 12",
+    "fecha": "2026-06-12",
+    "titulo": "Día del Gin",
+    "eventos": [
+      {
+        "hora": "18:00",
+        "nombre": "Gin Garden Experience",
+        "lugar": "Señorita Gin",
+        "descripcion": "Degustación de gins nacionales en un jardín sensorial."
+      },
+      {
+        "hora": "21:00",
+        "nombre": "DJ Set + Cocktails",
+        "lugar": "Ascensor Lounge",
+        "descripcion": "Música electrónica y cócteles con vista al océano Pacífico."
+      }
+    ]
+  },
+  {
+    "dia": "Viernes 13",
+    "fecha": "2026-06-13",
+    "titulo": "Noche de Bares",
+    "eventos": [
+      {
+        "hora": "19:00",
+        "nombre": "Bar Crawl Oficial",
+        "lugar": "Punto de partida: Plaza Aníbal Pinto",
+        "descripcion": "Recorrido guiado por 8 bares del Plan y los cerros."
+      },
+      {
+        "hora": "22:00",
+        "nombre": "Fiesta VCW",
+        "lugar": "Graffiti Bar",
+        "descripcion": "La fiesta oficial de la semana con DJs y cócteles ilimitados."
+      }
+    ]
+  },
+  {
+    "dia": "Sábado 14",
+    "fecha": "2026-06-14",
+    "titulo": "Día Familiar",
+    "eventos": [
+      {
+        "hora": "12:00",
+        "nombre": "Brunch & Cocktails",
+        "lugar": "Miradores",
+        "descripcion": "Brunch con cócteles sin alcohol y opciones para toda la familia."
+      },
+      {
+        "hora": "18:00",
+        "nombre": "Sunset Session",
+        "lugar": "La Playa Bar",
+        "descripcion": "Cócteles al atardecer con música en vivo."
+      }
+    ]
+  },
+  {
+    "dia": "Domingo 15",
+    "fecha": "2026-06-15",
+    "titulo": "Gran Cierre",
+    "eventos": [
+      {
+        "hora": "16:00",
+        "nombre": "Premiación VCW 2026",
+        "lugar": "Plaza Sotomayor",
+        "descripcion": "Premios al mejor cóctel, mejor bar y mejor bartender de la semana."
+      },
+      {
+        "hora": "20:00",
+        "nombre": "Fiesta de Cierre",
+        "lugar": "La Sebastiana Bar",
+        "descripcion": "Celebración final con los cócteles ganadores y música en vivo."
+      }
+    ]
+  }
+]

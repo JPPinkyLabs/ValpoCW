@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/* ─── DESIGN TOKENS ─── */
+:root {
+  --calipso: #00e5cc;
+  --magenta: #ff2d78;
+  --amarillo: #ffe400;
+  --violeta: #8b00ff;
+  --negro: #080810;
+  --blanco: #f0f0f8;
+  --gris: #1a1a2e;
+  --gris-claro: #2a2a44;
+  --background: var(--negro);
+  --foreground: var(--blanco);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-calipso: #00e5cc;
+  --color-magenta: #ff2d78;
+  --color-amarillo: #ffe400;
+  --color-violeta: #8b00ff;
+  --color-negro: #080810;
+  --color-blanco: #f0f0f8;
+  --color-gris: #1a1a2e;
+  --color-gris-claro: #2a2a44;
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "Space Grotesk", sans-serif;
+}
+
+/* ─── BASE STYLES ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--negro);
+  color: var(--blanco);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* ─── NOISE OVERLAY ─── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.35;
+}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--negro);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--gris-claro);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--calipso);
+}
+
+/* ─── SELECTION ─── */
+::selection {
+  background: rgba(0, 229, 204, 0.3);
+  color: var(--blanco);
+}
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes meshShift {
+  0% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+  50% {
+    filter: hue-rotate(15deg) brightness(1.08);
+  }
+  100% {
+    filter: hue-rotate(-10deg) brightness(0.95);
+  }
+}
+
+@keyframes rotar {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes scrollLine {
+  0%,
+  100% {
+    transform: scaleY(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scaleY(0.5);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* ─── UTILITY CLASSES ─── */
+.section-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--calipso);
+  margin-bottom: 1rem;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-glow-calipso {
+  text-shadow: 0 0 20px rgba(0, 229, 204, 0.6);
+}
+
+.text-glow-magenta {
+  text-shadow: 0 0 30px rgba(255, 45, 120, 0.5);
+}
+
+.text-glow-amarillo {
+  text-shadow: 0 0 20px rgba(255, 228, 0, 0.4);
+}
+
+.glow-calipso {
+  box-shadow: 0 0 20px rgba(0, 229, 204, 0.15);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 30px rgba(255, 45, 120, 0.4);
+}
+
+/* ─── CLIP PATH BUTTONS ─── */
+.clip-btn {
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+}
+
+/* ─── CUSTOM CURSOR ─── */
+@media (hover: hover) {
+  .cursor-dot {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: var(--calipso);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+    transition: transform 0.08s, background 0.2s;
+    box-shadow: 0 0 12px var(--calipso);
+  }
+  .cursor-ring {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    border: 1.5px solid rgba(0, 229, 204, 0.4);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 99998;
+    transform: translate(-50%, -50%);
+    transition: transform 0.18s, width 0.2s, height 0.2s;
+  }
+}

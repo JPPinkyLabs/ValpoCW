@@ -1,0 +1,50 @@
+[
+  {
+    "id": "destileria-del-norte",
+    "nombre": "Destilería del Norte",
+    "tier": "principal",
+    "sitioWeb": "https://destileriadelnorte.cl",
+    "logo": "/images/placeholder-sponsor.png",
+    "descripcion": "Productores de piscos y destilados premium del norte de Chile desde 1920."
+  },
+  {
+    "id": "pisco-solar",
+    "nombre": "Pisco Solar",
+    "tier": "principal",
+    "sitioWeb": "https://piscosolar.cl",
+    "logo": "/images/placeholder-sponsor.png",
+    "descripcion": "Pisco artesanal elaborado con energía solar en el Valle del Elqui."
+  },
+  {
+    "id": "ron-caleta",
+    "nombre": "Ron Caleta",
+    "tier": "asociado",
+    "sitioWeb": "https://roncaleta.cl",
+    "logo": "/images/placeholder-sponsor.png",
+    "descripcion": "Ron añejado en barricas de roble chileno, espíritu costero."
+  },
+  {
+    "id": "vermouth-litoral",
+    "nombre": "Vermouth Litoral",
+    "tier": "asociado",
+    "sitioWeb": "https://vermouthlitoral.cl",
+    "logo": "/images/placeholder-sponsor.png",
+    "descripcion": "Vermouth artesanal con botánicos del litoral central de Chile."
+  },
+  {
+    "id": "cerveza-cordillera",
+    "nombre": "Cerveza Cordillera",
+    "tier": "colaborador",
+    "sitioWeb": "https://cervezacordillera.cl",
+    "logo": "/images/placeholder-sponsor.png",
+    "descripcion": "Cerveza artesanal de montaña con agua de deshielo andino."
+  },
+  {
+    "id": "municipalidad-valparaiso",
+    "nombre": "Municipalidad de Valparaíso",
+    "tier": "institucional",
+    "sitioWeb": "https://municipalidaddevalparaiso.cl",
+    "logo": "/images/placeholder-sponsor.png",
+    "descripcion": "Gobierno local de la ciudad Patrimonio de la Humanidad."
+  }
+]
