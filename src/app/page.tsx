@@ -64,7 +64,7 @@ export default function Home() {
           </h1>
           <div className="mt-7 flex items-center gap-6 opacity-0 animate-[fadeUp_0.9s_0.8s_forwards]">
             <span className="clip-btn bg-amarillo text-negro font-display text-[1.4rem] tracking-[0.08em] px-5 py-1.5">
-              9 — 15 JUNIO
+              PRÓXIMAMENTE
             </span>
             <span className="text-[0.8rem] tracking-[0.12em] uppercase opacity-60">
               El cerro con más sabor de Chile
