@@ -5,7 +5,6 @@ import BarCard from "@/components/BarCard";
 import type { Bar, Auspiciador } from "@/lib/types";
 import baresData from "@/data/bares.json";
 import auspiciadoresData from "@/data/auspiciadores.json";
-import Image from "next/image";
 
 const bares: Bar[] = baresData as Bar[];
 const auspiciadores: Auspiciador[] = auspiciadoresData as Auspiciador[];
@@ -105,9 +104,7 @@ export default function Home() {
           VCW
         </span>
         <div className="max-w-[1200px] mx-auto relative grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
-          <SectionReveal>
-        <div className="max-w-[1200px] mx-auto relative grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
-          <SectionReveal>
+        <SectionReveal>
             <div className="relative max-w-[400px] md:max-w-none">
               <div className="w-full aspect-[4/5] bg-gradient-to-br from-magenta/30 via-violeta/30 to-calipso/20 flex items-center justify-center font-display text-sm tracking-[0.2em] opacity-50 border border-magenta/20">
                 FOTO DEL EVENTO
@@ -116,7 +113,6 @@ export default function Home() {
               <div className="absolute top-[-16px] left-[-16px] w-[40%] h-[40%] border-l-2 border-t-2 border-calipso shadow-[-8px_-8px_30px_rgba(0,229,204,0.2)] z-[1]" />
             </div>
           </SectionReveal>
-
           <SectionReveal delay={200}>
             <div>
               <p className="section-label">¿Qué es la Valpo Cocktail Week?</p>
