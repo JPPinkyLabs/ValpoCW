@@ -102,7 +102,7 @@ export default function Footer() {
 
       <div className="max-w-[1200px] mx-auto px-6 md:px-12 pt-6 pb-6 border-t border-white/5 flex flex-col md:flex-row justify-between text-xs opacity-30 gap-2">
         <span>© 2026 Valpo Cocktail Week</span>
-        <span>Pinky Labs</span>
+        <span>Pinky Labs©</span>
         <span>Valparaíso, Chile</span>
       </div>
     </footer>
