@@ -56,7 +56,7 @@ export default function ContactoPage() {
                     <p className="text-[0.72rem] tracking-[0.15em] uppercase opacity-40 mb-1">
                       Organiza
                     </p>
-                    <p>ACOVAL – Asociación de Cocteleros de Valparaíso</p>
+                    <p>Fundación No Me Olvides</p>
                   </div>
                   <div>
                     <p className="text-[0.72rem] tracking-[0.15em] uppercase opacity-40 mb-1">
