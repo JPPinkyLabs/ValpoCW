@@ -16,12 +16,13 @@ export const metadata: Metadata = {
     "valparaíso",
     "coctelería",
     "bares",
+    "restaurantes",
     "pisco",
     "chile",
     "festival",
     "VCW",
   ],
-  authors: [{ name: "ACOVAL" }],
+  authors: [{ name: "Fundación No Me Olvides & Pinky Labs" }],
   openGraph: {
     title: "Valpo Cocktail Week 2026",
     description:
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Valpo Cocktail Week 2026",
     description:
-      "40+ bares, 120+ cócteles, 7 días. Valparaíso, 9–15 Junio 2026.",
+      "40+ locales, 120+ cócteles, 7 días. Valparaíso, 9–15 Junio 2026.",
   },
   robots: {
     index: true,
