@@ -30,7 +30,7 @@ export default function Navbar() {
             href="/bares"
             className="text-blanco no-underline text-[0.78rem] font-medium tracking-[0.15em] uppercase opacity-75 hover:opacity-100 hover:text-calipso transition-all"
           >
-            Bares
+            Locales
           </Link>
         </li>
         <li>
@@ -109,7 +109,7 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="text-blanco no-underline text-sm font-medium tracking-[0.15em] uppercase opacity-75 hover:opacity-100 hover:text-calipso transition-all"
           >
-            Bares
+            Locales
           </Link>
           <Link
             href="/agenda"
