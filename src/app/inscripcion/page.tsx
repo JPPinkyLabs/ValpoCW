@@ -3,9 +3,9 @@ import PageHero from "@/components/PageHero";
 import InscripcionForm from "./InscripcionForm";
 
 export const metadata: Metadata = {
-  title: "Inscribir mi bar",
+  title: "Inscribir mi local",
   description:
-    "Inscribe tu bar o local a la Valpo Cocktail Week 2026. Completa el formulario y forma parte de la semana coctelera más importante de Valparaíso.",
+    "Inscribe tu bar o restaurant a la Valpo Cocktail Week 2026. Completa el formulario y forma parte de la semana coctelera más importante de Valparaíso.",
 };
 
 export default function InscripcionPage() {
@@ -14,7 +14,7 @@ export default function InscripcionPage() {
       <PageHero
         eyebrow="Inscripción 2026"
         title="Inscribe tu"
-        titleAccent="bar"
+        titleAccent="local"
         subtitle="Completa el formulario para participar en la Valpo Cocktail Week 2026. Nos pondremos en contacto contigo para confirmar tu participación."
       />
 
