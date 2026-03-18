@@ -19,7 +19,7 @@ export default function AgendaPage() {
         eyebrow="9 – 15 Junio 2026"
         title="Agenda de"
         titleAccent="actividades"
-        subtitle="Una semana completa de eventos, masterclasses, competencias y fiestas en los bares de Valparaíso."
+        subtitle="Una semana completa de eventos, masterclasses, competencias y fiestas en los bares y restaurantes de Valparaíso."
       />
 
       <section className="py-16 px-6 md:px-12 bg-negro">
