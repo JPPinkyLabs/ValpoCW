@@ -47,7 +47,7 @@ export default function BaresFilter({ bares, zonas }: BaresFilterProps) {
             placeholder="Buscar por nombre, cóctel o zona..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full bg-gris border border-white/10 text-blanco placeholder:text-white/30 text-sm px-11 py-3 focus:outline-none focus:border-calipso/50 transition-colors"
+            className="w-full bg-gris border border-white/10 text-blanco placeholder:text-white/30 text-sm pl-11 pr-4 py-3 focus:outline-none focus:border-calipso/50 transition-colors"
           />
         </div>
         <div className="flex gap-2 flex-wrap">
