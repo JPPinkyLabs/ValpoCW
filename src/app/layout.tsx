@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | Valpo Cocktail Week 2026",
   },
   description:
-    "Una semana de coctelería en los cerros y el plan de Valparaíso. 40+ bares, 120+ cócteles, 7 días de experiencias únicas. 9–15 Junio 2026.",
+    "Una semana de coctelería en los cerros y el plan de Valparaíso. 40+ locales, 120+ cócteles, 7 días de experiencias únicas. 9–15 Junio 2026.",
   keywords: [
     "cocktail week",
     "valparaíso",
