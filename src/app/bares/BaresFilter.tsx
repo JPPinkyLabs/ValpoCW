@@ -79,7 +79,7 @@ export default function BaresFilter({ bares, zonas }: BaresFilterProps) {
 
       {/* Results count */}
       <p className="text-sm opacity-40 mb-6">
-        {filtered.length} {filtered.length === 1 ? "bar" : "bares"}{" "}
+        {filtered.length} {filtered.length === 1 ? "local" : "locales"}{" "}
         {zona !== "Todas" ? `en ${zona}` : "participantes"}
       </p>
 
@@ -93,7 +93,7 @@ export default function BaresFilter({ bares, zonas }: BaresFilterProps) {
       {filtered.length === 0 && (
         <div className="text-center py-20 opacity-40">
           <div className="text-4xl mb-4">🍸</div>
-          <p className="font-display text-xl">No se encontraron bares</p>
+          <p className="font-display text-xl">No se encontraron locales</p>
           <p className="text-sm mt-2">Intenta con otro filtro o búsqueda</p>
         </div>
       )}
