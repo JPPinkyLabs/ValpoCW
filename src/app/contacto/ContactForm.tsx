@@ -63,7 +63,7 @@ export default function ContactForm() {
         >
           <option value="">Selecciona un tema</option>
           <option value="general">Consulta general</option>
-          <option value="inscripcion">Inscripción de bar</option>
+          <option value="inscripcion">Inscripción de local</option>
           <option value="prensa">Prensa y medios</option>
           <option value="auspicio">Auspicio y colaboración</option>
           <option value="otro">Otro</option>
