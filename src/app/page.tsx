@@ -84,7 +84,7 @@ export default function Home() {
               Ver agenda de actividades
             </Button>
             <Button href="/bares" variant="secondary">
-              Explorar bares participantes
+              Explorar locales participantes
             </Button>
           </div>
         </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 <strong className="text-calipso font-medium">
                   Valpo Cocktail Week
                 </strong>{" "}
-                reúne a los mejores bares de Valparaíso durante una semana de
+                reúne a los mejores bares y restaurantes de Valparaíso durante una semana de
                 experiencias únicas, cócteles de autor y precios especiales. Del
                 plan al cerro, la ciudad se transforma.
               </p>
@@ -152,7 +152,7 @@ export default function Home() {
 
               <div className="flex gap-10 mt-10 pt-8 border-t border-white/[0.08]">
                 {[
-                  { num: "40+", label: "Bares" },
+                  { num: "40+", label: "Locales" },
                   { num: "7", label: "Días" },
                   { num: "120+", label: "Cócteles" },
                   { num: "1ª", label: "Edición" },
@@ -186,7 +186,7 @@ export default function Home() {
               variant="secondary"
               className="!text-[0.72rem] !px-6 !py-3"
             >
-              Ver todos los bares
+              Ver todos los locales
             </Button>
           </div>
 
@@ -195,14 +195,14 @@ export default function Home() {
               {
                 num: "01",
                 icon: "🗺️",
-                title: "Elige tu bar",
+                title: "Elige tu local",
                 desc: "Explora el mapa de locales participantes desde el Plan hasta el Cerro Alegre y el Cerro Concepción.",
               },
               {
                 num: "02",
                 icon: "🍹",
                 title: "Pide el cóctel especial",
-                desc: "Cada bar participante ofrece uno o más cócteles de autor diseñados exclusivamente para la semana, a precio especial.",
+                desc: "Cada local participante ofrece uno o más cócteles de autor diseñados exclusivamente para la semana, a precio especial.",
               },
               {
                 num: "03",
@@ -237,7 +237,7 @@ export default function Home() {
           <div>
             <p className="section-label">Participantes 2026</p>
             <h2 className="font-display text-[clamp(2.5rem,5vw,4rem)] leading-none">
-              Los bares de la{" "}
+              Los locales de la{" "}
               <em className="not-italic text-magenta">semana</em>
             </h2>
           </div>
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="border border-dashed border-magenta/30 bg-transparent flex flex-col items-center justify-center text-center gap-2 p-8 h-full min-h-[200px]">
               <div className="text-3xl opacity-30">+</div>
               <div className="font-display text-base opacity-40">
-                {bares.length - 7} bares más
+                {bares.length - 7} locales más
               </div>
               <Link
                 href="/bares"
@@ -311,10 +311,10 @@ export default function Home() {
         />
         <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8 relative">
           <h2 className="font-display text-[clamp(2rem,5vw,3.5rem)] leading-tight max-w-[550px] text-center md:text-left">
-            ¿Tienes un bar en Valpo? Inscríbete a la edición 2026.
+            ¿Tienes un bar o restaurant en Valpo? Inscríbete a la edición 2026.
           </h2>
           <Button href="/inscripcion" variant="white">
-            Quiero inscribir mi bar
+            Quiero inscribir mi local
           </Button>
         </div>
       </section>
