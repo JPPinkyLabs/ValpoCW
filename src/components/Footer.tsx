@@ -12,7 +12,7 @@ export default function Footer() {
             VALPO<span className="text-magenta">CW</span>
           </Link>
           <p className="text-sm opacity-40 leading-relaxed max-w-sm">
-            La semana de la coctelería en Valparaíso. Una ciudad, sus bares, sus
+            La semana de la coctelería en Valparaíso. Una ciudad, sus bares, sus restaurantes, sus
             historias y los mejores cócteles del litoral chileno.
           </p>
         </div>
@@ -35,7 +35,7 @@ export default function Footer() {
                 href="/bares"
                 className="text-blanco no-underline text-[0.85rem] opacity-45 hover:opacity-90 hover:text-calipso transition-all"
               >
-                Bares participantes
+                Locales participantes
               </Link>
             </li>
             <li>
@@ -51,7 +51,7 @@ export default function Footer() {
                 href="/inscripcion"
                 className="text-blanco no-underline text-[0.85rem] opacity-45 hover:opacity-90 hover:text-calipso transition-all"
               >
-                Inscribir mi bar
+                Inscribir mi local
               </Link>
             </li>
           </ul>
@@ -102,6 +102,7 @@ export default function Footer() {
 
       <div className="max-w-[1200px] mx-auto px-6 md:px-12 pt-6 pb-6 border-t border-white/5 flex flex-col md:flex-row justify-between text-xs opacity-30 gap-2">
         <span>© 2026 Valpo Cocktail Week</span>
+        <span>Pinky Labs</span>
         <span>Valparaíso, Chile</span>
       </div>
     </footer>
