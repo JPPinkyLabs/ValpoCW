@@ -31,7 +31,7 @@ export default function InscripcionForm() {
     >
       <div>
         <label className="block text-[0.72rem] tracking-[0.15em] uppercase text-calipso mb-2">
-          Nombre del bar *
+          Nombre del local *
         </label>
         <input
           type="text"
@@ -105,7 +105,7 @@ export default function InscripcionForm() {
         </label>
         <input
           type="text"
-          placeholder="@tubar"
+          placeholder="@tulocal"
           className="w-full bg-negro border border-white/10 text-blanco placeholder:text-white/25 text-sm px-5 py-3 focus:outline-none focus:border-calipso/50 transition-colors"
         />
       </div>
@@ -124,11 +124,11 @@ export default function InscripcionForm() {
 
       <div>
         <label className="block text-[0.72rem] tracking-[0.15em] uppercase text-calipso mb-2">
-          Descripción del bar
+          Descripción del local
         </label>
         <textarea
           rows={4}
-          placeholder="Cuéntanos sobre tu bar, su estilo y especialidad..."
+          placeholder="Cuéntanos sobre tu local, su estilo y especialidad..."
           className="w-full bg-negro border border-white/10 text-blanco placeholder:text-white/25 text-sm px-5 py-3 focus:outline-none focus:border-calipso/50 transition-colors resize-none"
         />
       </div>
